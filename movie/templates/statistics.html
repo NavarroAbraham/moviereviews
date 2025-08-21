@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <h3 class="mb-4">Movies per Year</h3>
+  <img src="data:image/png;base64,{{ graphic_year }}" alt="Movies per year" class="img-fluid mb-5">
+
+  <h3 class="mb-4">Movies per Genre</h3>
+  <img src="data:image/png;base64,{{ graphic_genre }}" alt="Movies per genre" class="img-fluid">
+{% endblock %}
+{% block title %}Statistics{% endblock %}
+{% block styles %}
+  <link rel="stylesheet" href="{% static 'css/statistics.css' %}">
+{% endblock %}

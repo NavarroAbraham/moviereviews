@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e9ecef"/>
+      <stop offset="100%" stop-color="#dee2e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <rect x="20" y="20" width="600" height="320" rx="12" ry="12" fill="#f8f9fa" stroke="#ced4da"/>
+  <g fill="#adb5bd">
+    <circle cx="320" cy="170" r="70" fill="#ced4da"/>
+    <rect x="200" y="245" width="240" height="18" rx="9"/>
+  </g>
+  <g fill="#6c757d" font-family="Segoe UI, Roboto, Arial, sans-serif" text-anchor="middle">
+    <text x="320" y="175" font-size="20" fill="#495057">No image</text>
+    <text x="320" y="290" font-size="14">Poster not available</text>
+  </g>
+</svg>
